@@ -1,3 +1,4 @@
+# How to transpose a CSV file in R and save it as a text file
 setwd("C:/Graham/cardiotoxicity/Part3 Herbicide")
 
 transpose1<- read.csv("Herbicide3 vs VEH Cleaned.csv", colClasses = "character")

@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 
+# clean the TCGA data and change the target column to 0 and 1
 tcga_data_dir = os.getcwd()
 filepath = os.path.join(tcga_data_dir, 'TCGA Gastric TPM.csv')
 df = pd.read_csv(filepath)
@@ -41,6 +42,7 @@ transformed_df = "transformed_tcga.csv"
 new_path = os.path.join(tcga_data_dir, transformed_df)
 # Save the transformed DataFrame to a new CSV file
 df.to_csv(new_path, index=False)
+
 # Check for outliers using boxplot
 import matplotlib.pyplot as plt
 import seaborn as sns       
