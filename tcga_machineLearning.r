@@ -1,3 +1,5 @@
+# read the TCGA DATA FROM .xlsx file
+# and save it as a .csv file
 print("hello from r", )
 data <- read.table('illumina_genes.txt', header = TRUE,  sep = '	')
 

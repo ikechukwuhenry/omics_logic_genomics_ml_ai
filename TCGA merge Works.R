@@ -1,3 +1,5 @@
+# This script merges multiple TSV files from different
+# directories into a single file for each directory.
 setwd("C:/Graham/TCGA_AML_BEAT1_0/Raw Data/part 1")
 file_list <- list.files(pattern = "*.tsv")
 list_of_files <- lapply(file_list, read.delim, sep='\t', skip=6)

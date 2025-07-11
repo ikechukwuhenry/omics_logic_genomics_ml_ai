@@ -63,5 +63,4 @@ build/
 *.pytype/
 *.pyre/
 *.pylint.d/
-*.bandit/
 *.txt
