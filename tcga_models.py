@@ -121,7 +121,7 @@ def main(file_path):
 if __name__ == "__main__":
     # Example usage
     import os
-    tcga_data_dir = os.getcwd() # Replace with your actual directory path
-    file_path = 'transformed_tcga.csv'  # Replace with your actual file path
+    tcga_data_dir = os.getcwd() # directory path
+    file_path = 'transformed_tcga.csv'  # file path
     file_path = os.path.join(tcga_data_dir, file_path)
     main(file_path)
